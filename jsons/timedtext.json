@@ -1,0 +1,1063 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  } ],
+  "wpWinPositions": [ {
+  
+  } ],
+  "events": [ {
+    "tStartMs": 23841,
+    "dDurationMs": 2833,
+    "segs": [ {
+      "utf8": "It was a bright Sunday morning."
+    } ]
+  }, {
+    "tStartMs": 27341,
+    "dDurationMs": 4500,
+    "segs": [ {
+      "utf8": "ChaCha had decorated cupcakes for all his friends."
+    } ]
+  }, {
+    "tStartMs": 32966,
+    "dDurationMs": 3916,
+    "segs": [ {
+      "utf8": "The cupcake with the candy hearts is for ChuChu."
+    } ]
+  }, {
+    "tStartMs": 37841,
+    "dDurationMs": 4375,
+    "segs": [ {
+      "utf8": "The cupcake with the sugar flowers is for Chiku."
+    } ]
+  }, {
+    "tStartMs": 43049,
+    "dDurationMs": 6375,
+    "segs": [ {
+      "utf8": "The ones with the rainbow sprinkles are for Chika and Baby Taku."
+    } ]
+  }, {
+    "tStartMs": 50008,
+    "dDurationMs": 2791,
+    "segs": [ {
+      "utf8": "And the ones with the chocolate buttons"
+    } ]
+  }, {
+    "tStartMs": 52924,
+    "dDurationMs": 2584,
+    "segs": [ {
+      "utf8": "are for Cussly and me."
+    } ]
+  }, {
+    "tStartMs": 56257,
+    "dDurationMs": 3126,
+    "segs": [ {
+      "utf8": "Just then Cussly came into the kitchen."
+    } ]
+  }, {
+    "tStartMs": 62966,
+    "dDurationMs": 3958,
+    "segs": [ {
+      "utf8": "He saw the cupcakes and grew very greedy."
+    } ]
+  }, {
+    "tStartMs": 67341,
+    "dDurationMs": 2125,
+    "segs": [ {
+      "utf8": "Mmmm, cupcakes!"
+    } ]
+  }, {
+    "tStartMs": 69924,
+    "dDurationMs": 1250,
+    "segs": [ {
+      "utf8": "My favorite!"
+    } ]
+  }, {
+    "tStartMs": 71382,
+    "dDurationMs": 1751,
+    "segs": [ {
+      "utf8": "I’m going to eat them all."
+    } ]
+  }, {
+    "tStartMs": 73632,
+    "dDurationMs": 709,
+    "segs": [ {
+      "utf8": "Huh?"
+    } ]
+  }, {
+    "tStartMs": 74924,
+    "dDurationMs": 1917,
+    "segs": [ {
+      "utf8": "No, Cussly, no!"
+    } ]
+  }, {
+    "tStartMs": 77633,
+    "dDurationMs": 2708,
+    "segs": [ {
+      "utf8": "Not all! Just one!"
+    } ]
+  }, {
+    "tStartMs": 81049,
+    "dDurationMs": 2167,
+    "segs": [ {
+      "utf8": "ChaCha tried to stop Cussly."
+    } ]
+  }, {
+    "tStartMs": 83882,
+    "dDurationMs": 2917,
+    "segs": [ {
+      "utf8": "But Cussly grabbed all the cupcakes."
+    } ]
+  }, {
+    "tStartMs": 87299,
+    "dDurationMs": 1834,
+    "segs": [ {
+      "utf8": "He wanted to eat them all."
+    } ]
+  }, {
+    "tStartMs": 89882,
+    "dDurationMs": 792,
+    "segs": [ {
+      "utf8": "Uhhh!"
+    } ]
+  }, {
+    "tStartMs": 95174,
+    "dDurationMs": 2875,
+    "segs": [ {
+      "utf8": "just then ChuChu came into the kitchen."
+    } ]
+  }, {
+    "tStartMs": 98757,
+    "dDurationMs": 2334,
+    "segs": [ {
+      "utf8": "She saw Cussly being greedy."
+    } ]
+  }, {
+    "tStartMs": 101841,
+    "dDurationMs": 3792,
+    "segs": [ {
+      "utf8": "Cussly, please stop being so greedy."
+    } ]
+  }, {
+    "tStartMs": 105924,
+    "dDurationMs": 2334,
+    "segs": [ {
+      "utf8": "Or you’ll get yourself into trouble"
+    } ]
+  }, {
+    "tStartMs": 108758,
+    "dDurationMs": 2875,
+    "segs": [ {
+      "utf8": "Just like Sammy’s neighbor Bobby did,"
+    } ]
+  }, {
+    "tStartMs": 111716,
+    "dDurationMs": 2666,
+    "segs": [ {
+      "utf8": "when he took Sammy’s magical slippers."
+    } ]
+  }, {
+    "tStartMs": 115174,
+    "dDurationMs": 834,
+    "segs": [ {
+      "utf8": "Huh?"
+    } ]
+  }, {
+    "tStartMs": 116299,
+    "dDurationMs": 1042,
+    "segs": [ {
+      "utf8": "Sammy?"
+    } ]
+  }, {
+    "tStartMs": 117633,
+    "dDurationMs": 1083,
+    "segs": [ {
+      "utf8": "Bobby?"
+    } ]
+  }, {
+    "tStartMs": 119799,
+    "dDurationMs": 1667,
+    "segs": [ {
+      "utf8": "Magical slippers?"
+    } ]
+  }, {
+    "tStartMs": 123758,
+    "dDurationMs": 2500,
+    "segs": [ {
+      "utf8": "Please tell us what happened, ChuChu."
+    } ]
+  }, {
+    "tStartMs": 127174,
+    "dDurationMs": 1417,
+    "segs": [ {
+      "utf8": "Yes, ChuChu."
+    } ]
+  }, {
+    "tStartMs": 129716,
+    "dDurationMs": 5083,
+    "segs": [ {
+      "utf8": "And so ChuChu began to tell Cussly and ChaCha the story."
+    } ]
+  }, {
+    "tStartMs": 136341,
+    "dDurationMs": 4500,
+    "segs": [ {
+      "utf8": "Long ago, there lived a poor boy named Sammy."
+    } ]
+  }, {
+    "tStartMs": 145424,
+    "dDurationMs": 3500,
+    "segs": [ {
+      "utf8": "He lived with his mother who was very ill."
+    } ]
+  }, {
+    "tStartMs": 152257,
+    "dDurationMs": 3959,
+    "segs": [ {
+      "utf8": "Sammy had to take care of her all by himself."
+    } ]
+  }, {
+    "tStartMs": 157549,
+    "dDurationMs": 2750,
+    "segs": [ {
+      "utf8": "Sammy also had to work very hard."
+    } ]
+  }, {
+    "tStartMs": 160924,
+    "dDurationMs": 4625,
+    "segs": [ {
+      "utf8": "He needed money to buy food and medicine for his mother."
+    } ]
+  }, {
+    "tStartMs": 166049,
+    "dDurationMs": 4584,
+    "segs": [ {
+      "utf8": "Sammy used to do work for others and earned very little money."
+    } ]
+  }, {
+    "tStartMs": 171716,
+    "dDurationMs": 4125,
+    "segs": [ {
+      "utf8": "But near his house lived his neighbor Bobby."
+    } ]
+  }, {
+    "tStartMs": 176508,
+    "dDurationMs": 2208,
+    "segs": [ {
+      "utf8": "Bobby would give work to Sammy"
+    } ]
+  }, {
+    "tStartMs": 178841,
+    "dDurationMs": 2250,
+    "segs": [ {
+      "utf8": "but would cheat him one way or another"
+    } ]
+  }, {
+    "tStartMs": 181257,
+    "dDurationMs": 2500,
+    "segs": [ {
+      "utf8": "and never pay Sammy what he earned."
+    } ]
+  }, {
+    "tStartMs": 185841,
+    "dDurationMs": 4416,
+    "segs": [ {
+      "utf8": "Sammy, why don’t you paint the outside of my house?"
+    } ]
+  }, {
+    "tStartMs": 190591,
+    "dDurationMs": 1458,
+    "segs": [ {
+      "utf8": "I will pay you for that..."
+    } ]
+  }, {
+    "tStartMs": 192799,
+    "dDurationMs": 3209,
+    "segs": [ {
+      "utf8": "Why yes, Mr. Bobby! I will do it immediately!"
+    } ]
+  }, {
+    "tStartMs": 204424,
+    "dDurationMs": 1917,
+    "segs": [ {
+      "utf8": "Sir! I Have completed the work."
+    } ]
+  }, {
+    "tStartMs": 208591,
+    "dDurationMs": 1042,
+    "segs": [ {
+      "utf8": "Hmmmm…"
+    } ]
+  }, {
+    "tStartMs": 210924,
+    "dDurationMs": 3625,
+    "segs": [ {
+      "utf8": "Oh Bobby, this looks very bad!"
+    } ]
+  }, {
+    "tStartMs": 215507,
+    "dDurationMs": 2209,
+    "segs": [ {
+      "utf8": "Now I have to repaint it!"
+    } ]
+  }, {
+    "tStartMs": 218049,
+    "dDurationMs": 2375,
+    "segs": [ {
+      "utf8": "Oh my gosh, what have you done??"
+    } ]
+  }, {
+    "tStartMs": 221091,
+    "dDurationMs": 2125,
+    "segs": [ {
+      "utf8": "Oh! I’m sorry Bobby!"
+    } ]
+  }, {
+    "tStartMs": 224466,
+    "dDurationMs": 1250,
+    "segs": [ {
+      "utf8": "Okay, leave it."
+    } ]
+  }, {
+    "tStartMs": 226008,
+    "dDurationMs": 1416,
+    "segs": [ {
+      "utf8": "I will repaint it"
+    } ]
+  }, {
+    "tStartMs": 227757,
+    "dDurationMs": 3000,
+    "segs": [ {
+      "utf8": "and I will forgive you this time,"
+    } ]
+  }, {
+    "tStartMs": 230966,
+    "dDurationMs": 1917,
+    "segs": [ {
+      "utf8": "but don’t repeat it again!"
+    } ]
+  }, {
+    "tStartMs": 234133,
+    "dDurationMs": 2541,
+    "segs": [ {
+      "utf8": "Oh, okay sir..."
+    } ]
+  }, {
+    "tStartMs": 239883,
+    "dDurationMs": 2708,
+    "segs": [ {
+      "utf8": "Mister, can I chop some wood for you?"
+    } ]
+  }, {
+    "tStartMs": 243757,
+    "dDurationMs": 1167,
+    "segs": [ {
+      "utf8": "Can I clean your house?"
+    } ]
+  }, {
+    "tStartMs": 246174,
+    "dDurationMs": 4125,
+    "segs": [ {
+      "utf8": "One day, Sammy went to the forest to chop wood."
+    } ]
+  }, {
+    "tStartMs": 251049,
+    "dDurationMs": 3042,
+    "segs": [ {
+      "utf8": "Sammy was working very hard"
+    } ]
+  }, {
+    "tStartMs": 254508,
+    "dDurationMs": 4041,
+    "segs": [ {
+      "utf8": "when suddenly, he spotted a small bird."
+    } ]
+  }, {
+    "tStartMs": 258883,
+    "dDurationMs": 4750,
+    "segs": [ {
+      "utf8": "It was crying for help as a big bird was attacking it."
+    } ]
+  }, {
+    "tStartMs": 264633,
+    "dDurationMs": 3124,
+    "segs": [ {
+      "utf8": "Oh no, I should help this little bird."
+    } ]
+  }, {
+    "tStartMs": 269174,
+    "dDurationMs": 2584,
+    "segs": [ {
+      "utf8": "Shoo! Shoo! Shoo! Go away!"
+    } ]
+  }, {
+    "tStartMs": 272091,
+    "dDurationMs": 2542,
+    "segs": [ {
+      "utf8": "Sammy scared the big bird away."
+    } ]
+  }, {
+    "tStartMs": 276799,
+    "dDurationMs": 3709,
+    "segs": [ {
+      "utf8": "He then helped the little bird get back on its feet."
+    } ]
+  }, {
+    "tStartMs": 281049,
+    "dDurationMs": 1584,
+    "segs": [ {
+      "utf8": "Drink this, little one."
+    } ]
+  }, {
+    "tStartMs": 283258,
+    "dDurationMs": 1624,
+    "segs": [ {
+      "utf8": "It will help you feel better."
+    } ]
+  }, {
+    "tStartMs": 285966,
+    "dDurationMs": 3542,
+    "segs": [ {
+      "utf8": "Sammy waited with the bird until it felt better."
+    } ]
+  }, {
+    "tStartMs": 290383,
+    "dDurationMs": 1291,
+    "segs": [ {
+      "utf8": "Good, birdie."
+    } ]
+  }, {
+    "tStartMs": 292049,
+    "dDurationMs": 4709,
+    "segs": [ {
+      "utf8": "Suddenly, a wizard peeped out from behind a tree"
+    } ]
+  }, {
+    "tStartMs": 297008,
+    "dDurationMs": 2000,
+    "segs": [ {
+      "utf8": "and smiled at Sammy."
+    } ]
+  }, {
+    "tStartMs": 299258,
+    "dDurationMs": 3166,
+    "segs": [ {
+      "utf8": "Hello! That’s my pet bird."
+    } ]
+  }, {
+    "tStartMs": 302674,
+    "dDurationMs": 2125,
+    "segs": [ {
+      "utf8": "I just saw how you helped him."
+    } ]
+  }, {
+    "tStartMs": 306007,
+    "dDurationMs": 5251,
+    "segs": [ {
+      "utf8": "I want to thank you by giving you these magical slippers."
+    } ]
+  }, {
+    "tStartMs": 313174,
+    "dDurationMs": 3500,
+    "segs": [ {
+      "utf8": "The wizard then gave Sammy a pair of slippers."
+    } ]
+  }, {
+    "tStartMs": 317466,
+    "dDurationMs": 2792,
+    "segs": [ {
+      "utf8": "Huh? Magical slippers?"
+    } ]
+  }, {
+    "tStartMs": 320841,
+    "dDurationMs": 3375,
+    "segs": [ {
+      "utf8": "Yes! These slippers are magical."
+    } ]
+  }, {
+    "tStartMs": 324799,
+    "dDurationMs": 2042,
+    "segs": [ {
+      "utf8": "They can help you grow rich."
+    } ]
+  }, {
+    "tStartMs": 327299,
+    "dDurationMs": 4084,
+    "segs": [ {
+      "utf8": "If you wear them and jump once every week."
+    } ]
+  }, {
+    "tStartMs": 331924,
+    "dDurationMs": 2750,
+    "segs": [ {
+      "utf8": "they’ll give you a gold coin."
+    } ]
+  }, {
+    "tStartMs": 336091,
+    "dDurationMs": 2417,
+    "segs": [ {
+      "utf8": "Huh? A gold coin?"
+    } ]
+  }, {
+    "tStartMs": 339299,
+    "dDurationMs": 2625,
+    "segs": [ {
+      "utf8": "Yes! But remember."
+    } ]
+  }, {
+    "tStartMs": 342091,
+    "dDurationMs": 4292,
+    "segs": [ {
+      "utf8": "You must only wear the slippers and jump once a week."
+    } ]
+  }, {
+    "tStartMs": 346966,
+    "dDurationMs": 2792,
+    "segs": [ {
+      "utf8": "Because each time you jump,"
+    } ]
+  }, {
+    "tStartMs": 350132,
+    "dDurationMs": 2584,
+    "segs": [ {
+      "utf8": "you will grow a bit smaller."
+    } ]
+  }, {
+    "tStartMs": 353383,
+    "dDurationMs": 4541,
+    "segs": [ {
+      "utf8": "And you will only grow back to normal after a week..."
+    } ]
+  }, {
+    "tStartMs": 358216,
+    "dDurationMs": 3916,
+    "segs": [ {
+      "utf8": "So jump only once a week! Understand?"
+    } ]
+  }, {
+    "tStartMs": 363424,
+    "dDurationMs": 2334,
+    "segs": [ {
+      "utf8": "Huh? Just once a week?"
+    } ]
+  }, {
+    "tStartMs": 366591,
+    "dDurationMs": 2625,
+    "segs": [ {
+      "utf8": "Okay, I’ll remember that. Thank you!"
+    } ]
+  }, {
+    "tStartMs": 371174,
+    "dDurationMs": 2292,
+    "segs": [ {
+      "utf8": "As soon as Sammy reached home,"
+    } ]
+  }, {
+    "tStartMs": 374966,
+    "dDurationMs": 4208,
+    "segs": [ {
+      "utf8": "he put on the slippers and jumped, just once."
+    } ]
+  }, {
+    "tStartMs": 379549,
+    "dDurationMs": 792,
+    "segs": [ {
+      "utf8": "Jump!"
+    } ]
+  }, {
+    "tStartMs": 381299,
+    "dDurationMs": 3042,
+    "segs": [ {
+      "utf8": "Just as the wizard had said, when Sammy jumped"
+    } ]
+  }, {
+    "tStartMs": 384591,
+    "dDurationMs": 2000,
+    "segs": [ {
+      "utf8": "a shining gold coin appeared."
+    } ]
+  }, {
+    "tStartMs": 387716,
+    "dDurationMs": 2333,
+    "segs": [ {
+      "utf8": "Ah Ha, a gold coin!"
+    } ]
+  }, {
+    "tStartMs": 392549,
+    "dDurationMs": 2292,
+    "segs": [ {
+      "utf8": "Sammy took the gold coin"
+    } ]
+  }, {
+    "tStartMs": 395299,
+    "dDurationMs": 4125,
+    "segs": [ {
+      "utf8": "and used it to buy food and medicine for his mother."
+    } ]
+  }, {
+    "tStartMs": 400341,
+    "dDurationMs": 2833,
+    "segs": [ {
+      "utf8": "He also shared some of the food he bought"
+    } ]
+  }, {
+    "tStartMs": 403341,
+    "dDurationMs": 2333,
+    "segs": [ {
+      "utf8": "with other poor and hungry friends."
+    } ]
+  }, {
+    "tStartMs": 406383,
+    "dDurationMs": 2208,
+    "segs": [ {
+      "utf8": "Friends, please eat this."
+    } ]
+  }, {
+    "tStartMs": 415049,
+    "dDurationMs": 1625,
+    "segs": [ {
+      "utf8": "Little did Sammy know"
+    } ]
+  }, {
+    "tStartMs": 417049,
+    "dDurationMs": 3334,
+    "segs": [ {
+      "utf8": "that his greedy neighbor Bobby was watching."
+    } ]
+  }, {
+    "tStartMs": 421008,
+    "dDurationMs": 3249,
+    "segs": [ {
+      "utf8": "Sammy has suddenly grown very rich."
+    } ]
+  }, {
+    "tStartMs": 425174,
+    "dDurationMs": 1959,
+    "segs": [ {
+      "utf8": "I must find out how."
+    } ]
+  }, {
+    "tStartMs": 428341,
+    "dDurationMs": 3250,
+    "segs": [ {
+      "utf8": "So Bobby kept a close eye on Sammy."
+    } ]
+  }, {
+    "tStartMs": 432757,
+    "dDurationMs": 1334,
+    "segs": [ {
+      "utf8": "The next week,"
+    } ]
+  }, {
+    "tStartMs": 435049,
+    "dDurationMs": 4500,
+    "segs": [ {
+      "utf8": "Sammy wore the magical slippers and jumped once again."
+    } ]
+  }, {
+    "tStartMs": 440049,
+    "dDurationMs": 667,
+    "segs": [ {
+      "utf8": "Jump!"
+    } ]
+  }, {
+    "tStartMs": 441924,
+    "dDurationMs": 3500,
+    "segs": [ {
+      "utf8": "And once again, a gold coin appeared."
+    } ]
+  }, {
+    "tStartMs": 447008,
+    "dDurationMs": 3500,
+    "segs": [ {
+      "utf8": "Hooray! I have another gold coin."
+    } ]
+  }, {
+    "tStartMs": 451299,
+    "dDurationMs": 2542,
+    "segs": [ {
+      "utf8": "All thanks to these magical slippers."
+    } ]
+  }, {
+    "tStartMs": 456299,
+    "dDurationMs": 3042,
+    "segs": [ {
+      "utf8": "Bobby had been hiding and watching Sammy."
+    } ]
+  }, {
+    "tStartMs": 462216,
+    "dDurationMs": 4000,
+    "segs": [ {
+      "utf8": "So, Sammy has magical slippers huh?"
+    } ]
+  }, {
+    "tStartMs": 466716,
+    "dDurationMs": 3416,
+    "segs": [ {
+      "utf8": "They give him a gold coin whenever he jumps."
+    } ]
+  }, {
+    "tStartMs": 470841,
+    "dDurationMs": 3000,
+    "segs": [ {
+      "utf8": "Hmm! I must take those slippers."
+    } ]
+  }, {
+    "tStartMs": 474591,
+    "dDurationMs": 2792,
+    "segs": [ {
+      "utf8": "And get some gold coins for myself."
+    } ]
+  }, {
+    "tStartMs": 478049,
+    "dDurationMs": 3917,
+    "segs": [ {
+      "utf8": "Bobby understood that he had to jump to get gold coins"
+    } ]
+  }, {
+    "tStartMs": 482008,
+    "dDurationMs": 1708,
+    "segs": [ {
+      "utf8": "from the magical slippers,"
+    } ]
+  }, {
+    "tStartMs": 484674,
+    "dDurationMs": 2917,
+    "segs": [ {
+      "utf8": "but he didn’t know that each jump"
+    } ]
+  }, {
+    "tStartMs": 487716,
+    "dDurationMs": 2458,
+    "segs": [ {
+      "utf8": "would make him grow a little smaller."
+    } ]
+  }, {
+    "tStartMs": 490466,
+    "dDurationMs": 1000,
+    "segs": [ {
+      "utf8": "That night,"
+    } ]
+  }, {
+    "tStartMs": 494299,
+    "dDurationMs": 2792,
+    "segs": [ {
+      "utf8": "when Sammy and his mother were sleeping,"
+    } ]
+  }, {
+    "tStartMs": 497841,
+    "dDurationMs": 2208,
+    "segs": [ {
+      "utf8": "Bobby snuck into his house."
+    } ]
+  }, {
+    "tStartMs": 500966,
+    "dDurationMs": 2583,
+    "segs": [ {
+      "utf8": "I will take these slippers with me."
+    } ]
+  }, {
+    "tStartMs": 503841,
+    "dDurationMs": 4500,
+    "segs": [ {
+      "utf8": "And jump until I have enough gold coins to fill my house."
+    } ]
+  }, {
+    "tStartMs": 508632,
+    "dDurationMs": 3792,
+    "segs": [ {
+      "utf8": "As Bobby took the slippers and started to run away,"
+    } ]
+  }, {
+    "tStartMs": 512758,
+    "dDurationMs": 2416,
+    "segs": [ {
+      "utf8": "Sammy woke up and saw him."
+    } ]
+  }, {
+    "tStartMs": 515674,
+    "dDurationMs": 4209,
+    "segs": [ {
+      "utf8": "Sammy knew what Bobby was up to and tried to warn him"
+    } ]
+  }, {
+    "tStartMs": 520466,
+    "dDurationMs": 2958,
+    "segs": [ {
+      "utf8": "Hey! Bobby, listen to me!"
+    } ]
+  }, {
+    "tStartMs": 524133,
+    "dDurationMs": 3750,
+    "segs": [ {
+      "utf8": "You shouldn’t jump more than once a week with those slippers!"
+    } ]
+  }, {
+    "tStartMs": 528049,
+    "dDurationMs": 2125,
+    "segs": [ {
+      "utf8": "Let me explain to you why!"
+    } ]
+  }, {
+    "tStartMs": 530591,
+    "dDurationMs": 2958,
+    "segs": [ {
+      "utf8": "But Bobby thought that Sammy was shouting at him to"
+    } ]
+  }, {
+    "tStartMs": 533633,
+    "dDurationMs": 1458,
+    "segs": [ {
+      "utf8": "give back the slippers,"
+    } ]
+  }, {
+    "tStartMs": 535174,
+    "dDurationMs": 4875,
+    "segs": [ {
+      "utf8": "so he quickly closed the front door of Sammy’s house and ran away."
+    } ]
+  }, {
+    "tStartMs": 543966,
+    "dDurationMs": 2667,
+    "segs": [ {
+      "utf8": "Bobby put the slippers on and jumped."
+    } ]
+  }, {
+    "tStartMs": 547174,
+    "dDurationMs": 1084,
+    "segs": [ {
+      "utf8": "Jump!"
+    } ]
+  }, {
+    "tStartMs": 548466,
+    "dDurationMs": 3167,
+    "segs": [ {
+      "utf8": "Ha ha! I have a gold coin."
+    } ]
+  }, {
+    "tStartMs": 553382,
+    "dDurationMs": 2334,
+    "segs": [ {
+      "utf8": "But Bobby was very greedy."
+    } ]
+  }, {
+    "tStartMs": 556841,
+    "dDurationMs": 2417,
+    "segs": [ {
+      "utf8": "He wanted more gold coins."
+    } ]
+  }, {
+    "tStartMs": 559841,
+    "dDurationMs": 2833,
+    "segs": [ {
+      "utf8": "And so he jumped again."
+    } ]
+  }, {
+    "tStartMs": 562758,
+    "dDurationMs": 833,
+    "segs": [ {
+      "utf8": "And again!"
+    } ]
+  }, {
+    "tStartMs": 563674,
+    "dDurationMs": 1292,
+    "segs": [ {
+      "utf8": "And again!"
+    } ]
+  }, {
+    "tStartMs": 565591,
+    "dDurationMs": 750,
+    "segs": [ {
+      "utf8": "Ha haha!"
+    } ]
+  }, {
+    "tStartMs": 566966,
+    "dDurationMs": 4792,
+    "segs": [ {
+      "utf8": "Jump, jump, jump, jump, jump!"
+    } ]
+  }, {
+    "tStartMs": 572674,
+    "dDurationMs": 3792,
+    "segs": [ {
+      "utf8": "Wow! Now the coins are getting bigger."
+    } ]
+  }, {
+    "tStartMs": 577508,
+    "dDurationMs": 3708,
+    "segs": [ {
+      "utf8": "Greedy Bobby. He went on jumping."
+    } ]
+  }, {
+    "tStartMs": 581424,
+    "dDurationMs": 5208,
+    "segs": [ {
+      "utf8": "He had no idea that he was growing smaller with each jump."
+    } ]
+  }, {
+    "tStartMs": 586966,
+    "dDurationMs": 3458,
+    "segs": [ {
+      "utf8": "Soon Bobby was as small as an ant."
+    } ]
+  }, {
+    "tStartMs": 591508,
+    "dDurationMs": 958,
+    "segs": [ {
+      "utf8": "Jump!"
+    } ]
+  }, {
+    "tStartMs": 593216,
+    "dDurationMs": 4333,
+    "segs": [ {
+      "utf8": "Another gold coin appeared and fell on Bobby’s head."
+    } ]
+  }, {
+    "tStartMs": 598007,
+    "dDurationMs": 876,
+    "segs": [ {
+      "utf8": "Ow!"
+    } ]
+  }, {
+    "tStartMs": 599799,
+    "dDurationMs": 2209,
+    "segs": [ {
+      "utf8": "Bobby screamed but, sadly,"
+    } ]
+  }, {
+    "tStartMs": 602299,
+    "dDurationMs": 4125,
+    "segs": [ {
+      "utf8": "he had turned so small that no one could hear or see him."
+    } ]
+  }, {
+    "tStartMs": 606716,
+    "dDurationMs": 4208,
+    "segs": [ {
+      "utf8": "Except for a kitty cat that is, who was looking for a snack."
+    } ]
+  }, {
+    "tStartMs": 613591,
+    "dDurationMs": 3500,
+    "segs": [ {
+      "utf8": "Huh? Huh? Huh?"
+    } ]
+  }, {
+    "tStartMs": 617758,
+    "dDurationMs": 1166,
+    "segs": [ {
+      "utf8": "Noooooo!"
+    } ]
+  }, {
+    "tStartMs": 619133,
+    "dDurationMs": 3416,
+    "segs": [ {
+      "utf8": "Bobby ran as the cat chased him away."
+    } ]
+  }, {
+    "tStartMs": 622674,
+    "dDurationMs": 2167,
+    "segs": [ {
+      "utf8": "When Sammy came looking for him,"
+    } ]
+  }, {
+    "tStartMs": 624966,
+    "dDurationMs": 4833,
+    "segs": [ {
+      "utf8": "he saw a pile of gold coins but no trace of Bobby."
+    } ]
+  }, {
+    "tStartMs": 629882,
+    "dDurationMs": 2751,
+    "segs": [ {
+      "utf8": "He was so sad and said..."
+    } ]
+  }, {
+    "tStartMs": 633508,
+    "dDurationMs": 3541,
+    "segs": [ {
+      "utf8": "Oh Bobby! If only you had listened to me!"
+    } ]
+  }, {
+    "tStartMs": 638758,
+    "dDurationMs": 3500,
+    "segs": [ {
+      "utf8": "And that's how Sammy's neighbor Bobby"
+    } ]
+  }, {
+    "tStartMs": 642424,
+    "dDurationMs": 3042,
+    "segs": [ {
+      "utf8": "got into trouble for being greedy."
+    } ]
+  }, {
+    "tStartMs": 645924,
+    "dDurationMs": 1875,
+    "segs": [ {
+      "utf8": "And if you are greedy,"
+    } ]
+  }, {
+    "tStartMs": 647883,
+    "dDurationMs": 2625,
+    "segs": [ {
+      "utf8": "you might get into trouble too"
+    } ]
+  }, {
+    "tStartMs": 650591,
+    "dDurationMs": 2333,
+    "segs": [ {
+      "utf8": "and end up with a tummy ache."
+    } ]
+  }, {
+    "tStartMs": 656258,
+    "dDurationMs": 1916,
+    "segs": [ {
+      "utf8": "I don't want to be greedy!"
+    } ]
+  }, {
+    "tStartMs": 658383,
+    "dDurationMs": 2541,
+    "segs": [ {
+      "utf8": "Please take these cupcakes, ChaCha."
+    } ]
+  }, {
+    "tStartMs": 661299,
+    "dDurationMs": 1917,
+    "segs": [ {
+      "utf8": "I'll just have one of them."
+    } ]
+  }, {
+    "tStartMs": 663757,
+    "dDurationMs": 4959,
+    "segs": [ {
+      "utf8": "That day Cussly changed his mind about being greedy."
+    } ]
+  }, {
+    "tStartMs": 668924,
+    "dDurationMs": 2834,
+    "segs": [ {
+      "utf8": "He only ate one cupcake."
+    } ]
+  }, {
+    "tStartMs": 672299,
+    "dDurationMs": 3792,
+    "segs": [ {
+      "utf8": "ChuChu had helped Cussly stay out of trouble"
+    } ]
+  }, {
+    "tStartMs": 676841,
+    "dDurationMs": 3625,
+    "segs": [ {
+      "utf8": "and ensured all the others got their cupcakes too."
+    } ]
+  }, {
+    "tStartMs": 681133,
+    "dDurationMs": 5541,
+    "segs": [ {
+      "utf8": "Mmm! Yummy! Mmm! Mmm!"
+    } ]
+  } ]
+}
