@@ -6,7 +6,7 @@ folder = os.fsencode('jsons')
 filenames = [os.fsdecode(file) for file in os.listdir(folder)\
              if os.fsdecode(file).endswith(".json")]
 
-print(filenames)
+#print(filenames)
 
 with open("text/subsfile.txt", 'w') as writer:
     for file in filenames:
@@ -17,7 +17,7 @@ with open("text/subsfile.txt", 'w') as writer:
             subtitles = []
             #extract the text
             for element in events:
-                #print(element["segs"][0]["utf8"])
+                print(element["segs"][0]["utf8"])
                 writer.write(element["segs"][0]["utf8"] + " ")
 
 

@@ -42,6 +42,9 @@ def youtube_search(criteria, max_res):
     titles = []
     videoIds = []
     channelIds = []
+    contentRating = []
+    madeForKids = []
+    license = []
     resp_df = pd.DataFrame()
 
     while len(titles) < max_res:
@@ -55,10 +58,15 @@ def youtube_search(criteria, max_res):
                                    videoDuration='long',
                                    pageToken=token)
 
+        print(response)
+
         for item in response['items']:
             titles.append(item['snippet']['title'])
             channelIds.append(item['snippet']['channelTitle'])
             videoIds.append(item['id']['videoId'])
+            # contentRating.append(item['contentDetails']['contentRating']['acbRating'])
+            # madeForKids.append(item['status']['madeForKids'])
+            # license.append(item['status']['license'])
 
         token = response['nextPageToken']
 
@@ -66,6 +74,9 @@ def youtube_search(criteria, max_res):
     resp_df['channelId'] = channelIds
     resp_df['videoId'] = videoIds
     resp_df['subject'] = criteria
+    # resp_df['contentRating'] = contentRating
+    # resp_df['madeForKids'] = madeForKids
+    # resp_df['license'] = license
 
     return resp_df
 
