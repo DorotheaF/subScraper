@@ -1,3 +1,5 @@
+import csv
+
 import pandas as pd
 import os
 import webvtt
@@ -24,29 +26,55 @@ def convert_vtt(filenames):
         text_time['start'] = [caption.start for caption in captions]
         text_time['stop'] = [caption.end for caption in captions]
         print(text_time['text'])
-        text_time['text'].to_csv('assets/{}.csv'.format(file[:-4].replace(" ", "")), quoting=csv.QUOTE_NONE, index=False, header=False) #-4 to remove '.vtt'
+        text_time['text'].to_csv('assets/{}.csv'.format(file[:-4].replace(" ", "")), index=False) #quoting=csv.QUOTE_NONE, index=False, header=False, escapechar='') #-4 to remove '.vtt'
         #remove files from local drive
         os.remove(file)
 
 
 def concat_subs(filelist):
-    subs = pd.DataFrame
+    subs = []
     for file in filelist:
-        text = pd.read_csv('assets/' + file)
-        subs.append(text)
-    subs.to_csv(path_or_buf="text/subsfile.csv", index=False)
+        with open('assets/' + file, 'r', encoding='utf8') as file:
+            reader = csv.reader(file)
+            for line in reader:
+                subs.append(line)
+    with open("text/subsfile.txt", 'w', encoding='utf8') as writer:
+        for script in subs:
+            for line in script:
+                #print(line)
+                writer.write(line + " ")
 
-
-
+def remove_spaces(filelist):
+    for file in filelist:
+        subs = []
+        with open('assets/' + file, 'r', encoding='utf8') as reader:
+            for line in reader:
+                line = line.split()
+                newline = ""
+                for word in line:
+                    if word!= "!" and word!= "." and word!= "," and word!= "?":
+                        newline = newline + " " + word
+                        subs.append(newline)
+        with open('assets/' + file, 'w', encoding='utf8') as writer:
+            for line in subs:
+                line = line.split()
+                for word in line:
+                    if word[-1] == "." or word[-1] == "!" or word[-1] == "?":
+                        writer.write(word[:-1] + " " + word[-1] + "\n")
+                    if word[-1] == ",":
+                        writer.write(word[:-1] + " ," )
+                    else:
+                        writer.write(word + " ")
 # kidsVids = pd.read_csv(filepath_or_buffer="vids.csv")
 # print(kidsVids.head())
 #
 # get_all_ccs(kidsVids['videoId'])
-#
-# filenames_vtt = [os.fsdecode(file) for file in os.listdir(os.getcwd()) if os.fsdecode(file).endswith(".vtt")]
-# print(filenames_vtt[:2])
-# convert_vtt(filenames_vtt)
+
+filenames_vtt = [os.fsdecode(file) for file in os.listdir(os.getcwd()) if os.fsdecode(file).endswith(".vtt")]
+print(filenames_vtt[:2])
+convert_vtt(filenames_vtt)
 
 
 filelist = [os.fsdecode(file) for file in os.listdir(os.getcwd()+'/assets')]
+#remove_spaces(filelist)
 concat_subs(filelist)

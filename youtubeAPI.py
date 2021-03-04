@@ -51,7 +51,7 @@ def youtube_search(criteria, max_res):
     license = []
     resp_df = pd.DataFrame()
     token = None
-    while len(titles) < max_res:
+    while len(titles) < max_res and token != -1:
         response = youtube_keyword(client,  #TODO: language english
                                    part='id,snippet',
                                    maxResults=50,
@@ -67,7 +67,7 @@ def youtube_search(criteria, max_res):
             ID = item['id']['videoId']
             video = api.get_video_by_id(video_id=ID, return_json=True)
             kids = video['items'][0]['status']['madeForKids']
-            if kids == True:
+            if kids == True: #TODO: check if has eng subs file
                 #print(video['items'][0]['snippet']['title'])
                 titles.append(video['items'][0]['snippet']['title'])
                 channelIds.append(video['items'][0]['snippet']['channelTitle'])
@@ -76,7 +76,7 @@ def youtube_search(criteria, max_res):
                 madeForKids.append(video['items'][0]['status']['madeForKids'])
                 license.append(video['items'][0]['status']['license'])
 
-        token = response['nextPageToken']
+        token = response['nextPageToken'] #TODO: check if there is a next page
         #print(token)
 
     resp_df['title'] = titles
@@ -89,8 +89,8 @@ def youtube_search(criteria, max_res):
 
     return resp_df
 
-kidVids = youtube_search('[kids]',100)
+kidVids = youtube_search('[kids, fairy tales]', 200)
 print(kidVids.shape)
 print(kidVids.head())
 
-kidVids.to_csv(path_or_buf="vids.csv",index=False)
+kidVids.to_csv(path_or_buf="vids.csv", index=False)
