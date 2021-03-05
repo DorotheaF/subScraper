@@ -44,27 +44,21 @@ def concat_subs(filelist):
                 #print(line)
                 writer.write(line + " ")
 
-def remove_spaces(filelist):
-    for file in filelist:
-        subs = []
-        with open('assets/' + file, 'r', encoding='utf8') as reader:
+def clean():
+    with open("text/subsfile.txt", 'r', encoding='utf8') as reader:
+        with open("text/subsfile-clean.txt", 'w', encoding='utf8') as writer:
             for line in reader:
-                line = line.split()
+                line = line.replace('"', ' ').split()
                 newline = ""
-                for word in line:
-                    if word!= "!" and word!= "." and word!= "," and word!= "?":
-                        newline = newline + " " + word
-                        subs.append(newline)
-        with open('assets/' + file, 'w', encoding='utf8') as writer:
-            for line in subs:
-                line = line.split()
                 for word in line:
                     if word[-1] == "." or word[-1] == "!" or word[-1] == "?":
                         writer.write(word[:-1] + " " + word[-1] + "\n")
-                    if word[-1] == ",":
-                        writer.write(word[:-1] + " ," )
+                    elif word[-1] == ",":
+                        writer.write(word[:-1] + " , ")
                     else:
                         writer.write(word + " ")
+
+
 # kidsVids = pd.read_csv(filepath_or_buffer="vids.csv")
 # print(kidsVids.head())
 #
@@ -76,5 +70,5 @@ convert_vtt(filenames_vtt)
 
 
 filelist = [os.fsdecode(file) for file in os.listdir(os.getcwd()+'/assets')]
-#remove_spaces(filelist)
 concat_subs(filelist)
+clean()

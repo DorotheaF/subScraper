@@ -49,5 +49,5 @@ kidVids['license'] = license # Is this the correct license to use?
 print(kidVids.shape)
 print(kidVids)
 
-kidVids.to_csv(path_or_buf="vids.csv",index=False)
+kidVids.to_csv(path_or_buf="Fairy-tales_data/vids.csv", index=False)
 

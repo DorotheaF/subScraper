@@ -52,6 +52,7 @@ def youtube_search(criteria, max_res):
     resp_df = pd.DataFrame()
     token = None
     while len(titles) < max_res and token != -1:
+        print("adding videos to " + str(len(titles)))
         response = youtube_keyword(client,  #TODO: language english
                                    part='id,snippet',
                                    maxResults=50,
@@ -89,8 +90,9 @@ def youtube_search(criteria, max_res):
 
     return resp_df
 
-kidVids = youtube_search('[kids, fairy tales]', 200)
+kidVids = youtube_search('[kids, cartoons]', 460)
+# done: kids & fairy tales; preschool; cartoons & kids
 print(kidVids.shape)
 print(kidVids.head())
 
-kidVids.to_csv(path_or_buf="vids.csv", index=False)
+kidVids.to_csv(path_or_buf="vids2.csv", index=False)
