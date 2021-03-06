@@ -6,13 +6,14 @@ import google_auth_oauthlib.flow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from google_auth_oauthlib.flow import InstalledAppFlow
+
 CLIENT_SECRETS_FILE = "client_secret_962900755501-cv74i754qsq0u6l8hmvt4ga80bvfaa4e.apps.googleusercontent.com.json"
 SCOPES = ['https://www.googleapis.com/auth/youtube.force-ssl']
 API_SERVICE_NAME = 'youtube'
 API_VERSION = 'v3'
-DEVELOPER_KEY = 'AIzaSyBLIkEV8p16D4gAb7dXv_Dk05dF1oXrpBQ'
+DEVELOPER_KEY = 'AIzaSyBLIkEV8p16D4gAb7dXv_Dk05dF1oXrpBQ' # TODO: conf file or env file or something to hide the key
 
-api = Api(api_key='AIzaSyBLIkEV8p16D4gAb7dXv_Dk05dF1oXrpBQ')
+api = Api(api_key=DEVELOPER_KEY)
 
 
 def get_authenticated_service():
@@ -31,8 +32,6 @@ def remove_empty_kwargs(**kwargs):
     return good_kwargs
 
 
-client = get_authenticated_service()
-
 def youtube_keyword(client, **kwargs):
     kwargs = remove_empty_kwargs(**kwargs)
     response = client.search().list(
@@ -41,7 +40,7 @@ def youtube_keyword(client, **kwargs):
     return response
 
 
-def youtube_search(criteria, max_res):
+def youtube_search(criteria, max_res, client):
     # create lists and empty dataframe
     titles = []
     videoIds = []
@@ -51,11 +50,15 @@ def youtube_search(criteria, max_res):
     license = []
     resp_df = pd.DataFrame()
     token = None
-    while len(titles) < max_res and token != -1:
+    while len(titles) < max_res:  #TODO: if token fails, throw warning but save
+        if max_res >= 50:
+            mR = 50
+        else:
+            mR = max_res
         print("adding videos to " + str(len(titles)))
         response = youtube_keyword(client,  #TODO: language english
                                    part='id,snippet',
-                                   maxResults=50,
+                                   maxResults=mR,
                                    q=criteria,
                                    videoCaption='closedCaption',
                                    type='video',
@@ -90,9 +93,3 @@ def youtube_search(criteria, max_res):
 
     return resp_df
 
-kidVids = youtube_search('[kids, cartoons]', 460)
-# done: kids & fairy tales; preschool; cartoons & kids
-print(kidVids.shape)
-print(kidVids.head())
-
-kidVids.to_csv(path_or_buf="vids2.csv", index=False)
