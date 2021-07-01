@@ -5,7 +5,7 @@ Currently set for videos with closed captions, made for kids, and with unrestric
 #### Setup
 Clone repo, and follow instructions to set up youtube API developer key 
 (https://developers.google.com/youtube/v3/getting-started).
-Add developer key to main.py (for now, future config file). 
+Add developer key to youtubeAPI.py (for now, future config file). 
 
 #### Get Subs
 In main.py set max search quantity to the desired number of videos, add search terms to searchTerms list (separated by 
