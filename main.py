@@ -1,6 +1,5 @@
 import os
 import pandas as pd
-
 import youtubeAPI
 import getSubs
 
@@ -38,12 +37,12 @@ def cleanTheSubs(directory):
 
 
 # VARIABLES:
-searchTerms = '[green]'  # i.e '[kids, cartoons]'. Find videos fulfilling all terms.
+searchTerms = '[yellow, orange]'  # i.e '[kids, cartoons]'. Find videos fulfilling all terms.
+primaryTopic = searchTerms.replace("[","").replace("]","").replace(",","_").replace(" ","")  # what (new) directory you want the subs to be stored in
+listFileTitle = "vids.csv"
 maxSearchQuantity = 5  # how many videos you want to find.
-# If you get nextPageToken error, change this number to the largest one output in the terminal
-primaryTopic = "Green"  # what (new) directory you want the subs to be stored in
-listFileTitle = "videoList.csv"
-searchForVids = True
+# If you get nextPageToken error, change this number to equal the max output in the terminal
+searchForVids = True # way to only run parts of the process: finding videos, getting subs from videos, cleaning the subs
 getVidSubs = True
 concatAndClean = True
 
@@ -52,7 +51,7 @@ if searchForVids:
     getSomeVids(searchTerms, maxSearchQuantity, primaryTopic, listFileTitle)
 
 if getVidSubs:
-    print("Getting subs for videos with topic " + primaryTopic)
+    print("\nGetting subs for videos with topic " + primaryTopic)
     getSomeSubs(primaryTopic, listFileTitle)
 
 if concatAndClean:

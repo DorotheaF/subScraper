@@ -1,13 +1,8 @@
 import pandas as pd
 import os
 from pyyoutube import Api
-import google.oauth2.credentials
-import google_auth_oauthlib.flow
 from googleapiclient.discovery import build
-from googleapiclient.errors import HttpError
-from google_auth_oauthlib.flow import InstalledAppFlow
 
-CLIENT_SECRETS_FILE = "client_secret_962900755501-cv74i754qsq0u6l8hmvt4ga80bvfaa4e.apps.googleusercontent.com.json"
 SCOPES = ['https://www.googleapis.com/auth/youtube.force-ssl']
 API_SERVICE_NAME = 'youtube'
 API_VERSION = 'v3'
@@ -17,9 +12,9 @@ api = Api(api_key=DEVELOPER_KEY)
 
 
 def get_authenticated_service():
-    flow = InstalledAppFlow.from_client_secrets_file(CLIENT_SECRETS_FILE, SCOPES)
-    credentials = flow.run_console()
-    return build(API_SERVICE_NAME, API_VERSION,  developerKey=DEVELOPER_KEY)  # credentials = credentials)
+    # flow = InstalledAppFlow.from_client_secrets_file(CLIENT_SECRETS_FILE, SCOPES)
+    # credentials = flow.run_console()
+    return build(API_SERVICE_NAME, API_VERSION,  developerKey=DEVELOPER_KEY ) #, credentials = credentials)
 
 
 # Remove keyword arguments that are not set
@@ -62,7 +57,7 @@ def youtube_search(criteria, max_res, client):
                                    q=criteria,
                                    videoCaption='closedCaption',
                                    type='video',
-                                   key="AIzaSyBLIkEV8p16D4gAb7dXv_Dk05dF1oXrpBQ",
+                                   key=DEVELOPER_KEY,
                                    pageToken=token)
 
         #print(response)
