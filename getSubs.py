@@ -58,7 +58,7 @@ def clean(filepath):
     with open(filepath + "/text/subsfile.txt", 'r', encoding='utf8') as reader:
         with open(filepath + "/text/subsfile-clean.txt", 'w', encoding='utf8') as writer:
             for line in reader:
-                line = line.replace('"', '').replace("♪", '').replace("(", '').replace(")", '').replace(";", '').replace("&", ' ').replace("[", '').replace("]", '') # get rid of quotes in subs
+                line = line.replace('"', '').replace("♪", '').replace("♫",'').replace("(", '').replace(")", '').replace(";", '').replace("&", ' ').replace("[", '').replace("]", '') # get rid of quotes in subs
                 writer.write(line)
 
 
