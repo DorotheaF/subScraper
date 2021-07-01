@@ -6,7 +6,8 @@ from googleapiclient.discovery import build
 SCOPES = ['https://www.googleapis.com/auth/youtube.force-ssl']
 API_SERVICE_NAME = 'youtube'
 API_VERSION = 'v3'
-DEVELOPER_KEY = 'AIzaSyBLIkEV8p16D4gAb7dXv_Dk05dF1oXrpBQ' # TODO: conf file or env file or something to hide the key
+with open("APIKey.txt", "r") as reader:
+    DEVELOPER_KEY = reader.readline() # TODO: conf file or env file or something to hide the key
 
 api = Api(api_key=DEVELOPER_KEY)
 
@@ -14,7 +15,7 @@ api = Api(api_key=DEVELOPER_KEY)
 def get_authenticated_service():
     # flow = InstalledAppFlow.from_client_secrets_file(CLIENT_SECRETS_FILE, SCOPES)
     # credentials = flow.run_console()
-    return build(API_SERVICE_NAME, API_VERSION,  developerKey=DEVELOPER_KEY ) #, credentials = credentials)
+    return build(API_SERVICE_NAME, API_VERSION,  developerKey=DEVELOPER_KEY) #, credentials = credentials)
 
 
 # Remove keyword arguments that are not set
@@ -45,12 +46,13 @@ def youtube_search(criteria, max_res, client):
     license = []
     resp_df = pd.DataFrame()
     token = None
-    while len(titles) < max_res:  #TODO: if token fails, throw warning but save
+    cont = len(titles)
+    while cont < max_res:  #TODO: if token fails, throw warning but save
         if max_res >= 50:
             mR = 50
         else:
             mR = max_res
-        print("adding videos to " + str(len(titles)))
+        print("adding videos, " + str(len(titles)))
         response = youtube_keyword(client,  #TODO: language english
                                    part='id,snippet',
                                    maxResults=mR,
@@ -75,8 +77,12 @@ def youtube_search(criteria, max_res, client):
                 madeForKids.append(video['items'][0]['status']['madeForKids'])
                 license.append(video['items'][0]['status']['license'])
 
-        token = response['nextPageToken'] #TODO: check if there is a next page
-        #print(token)
+        if 'nextPageToken' in response:
+            token = response['nextPageToken']
+            cont = len(titles)
+        else:
+            cont = max_res
+            print("The maximum videos found was " + len(titles))
 
     resp_df['title'] = titles
     resp_df['channelId'] = channelIds
