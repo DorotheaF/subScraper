@@ -6,7 +6,7 @@ from googleapiclient.discovery import build
 SCOPES = ['https://www.googleapis.com/auth/youtube.force-ssl']
 API_SERVICE_NAME = 'youtube'
 API_VERSION = 'v3'
-DEVELOPER_KEY = 'AIzaSyBLIkEV8p16D4gAb7dXv_Dk05dF1oXrpBQ' # TODO: conf file or env file or something to hide the key
+DEVELOPER_KEY ='<YOUR KEY HERE>' # TODO: conf file or env file or something to hide the key
 
 api = Api(api_key=DEVELOPER_KEY)
 
