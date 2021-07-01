@@ -3,7 +3,7 @@ import json
 from pyyoutube import Api
 import pandas as pd
 
-api = Api(api_key='AIzaSyBLIkEV8p16D4gAb7dXv_Dk05dF1oXrpBQ')
+api = Api(api_key='<YOUR KEY HERE>')
 
 criteria = "fairy tale"
 count = 100 # why does count 1 return no results
